@@ -1,0 +1,71 @@
+{
+  "_from": "mapmyindia-react",
+  "_id": "mapmyindia-react@1.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-WjxrhQRTdWakcx2+oRSNwMpBmbPznDXfBy3oS6RPhgVgmLkmHCtdaDpgfuXl7ubGiDKGlCaM0Zv41nA56/wLYg==",
+  "_location": "/mapmyindia-react",
+  "_phantomChildren": {
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "prop-types": "15.8.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mapmyindia-react",
+    "name": "mapmyindia-react",
+    "escapedName": "mapmyindia-react",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mapmyindia-react/-/mapmyindia-react-1.0.6.tgz",
+  "_shasum": "742ba1399584d5a28b4179f903f1cd7433634f91",
+  "_spec": "mapmyindia-react",
+  "_where": "D:\\Development\\Source-Repo\\Chaitanya-report\\chaitanya-reports-ui",
+  "author": {
+    "name": "harish khot"
+  },
+  "bugs": {
+    "url": "https://github.com/khotharish1207/mapmyindia-react/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1"
+  },
+  "deprecated": false,
+  "description": "React map component for mapmyIndia (https://www.mapmyindia.com/api/advanced-maps/doc/interactive-map-api)",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  },
+  "homepage": "https://github.com/khotharish1207/mapmyindia-react#readme",
+  "keywords": [
+    "mapmyindia",
+    "react",
+    "maps",
+    "Interactive Map"
+  ],
+  "main": "dist/index.js",
+  "name": "mapmyindia-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khotharish1207/mapmyindia-react.git"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "build-watch": "babel src -d dist --watch"
+  },
+  "version": "1.0.6"
+}
